@@ -1,0 +1,232 @@
+/* Area global do projeto*/
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+html {
+    font-size: 16px;
+}
+
+h2 {
+    width: 100%;
+    height: 100px;
+    font-family: arial;
+    font-size: 2.4rem;
+    font-weight: bold;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+p {
+    width: 90%;
+    min-height: 50px;
+    font-family: verdana;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 50px;
+    padding-left: 30px;
+}
+
+.background-img-default {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.content-default {
+    width: 100%;
+    margin: auto;
+}
+
+.content-auto-height {
+    min-height: 100px;
+    height: auto;
+    overflow: hidden;
+}
+
+header img{
+    width: 100%;
+    height: 900px;
+    object-fit: contain;
+    object-position: top center;
+    display: block;
+    background-color: #000000;    
+}
+
+header nav{
+    width: 100vw;
+    height: auto;
+    background-color: #000000;
+    color: #ffffff; 
+}
+
+header nav ul{
+    width: 60%;
+    height: 100%;
+    margin-left: auto;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav ul li{
+    width: 60%;
+    height: 100px;
+    margin-right: 130px;
+    font-family: arial;
+    font-size: 1.4rem;   
+    text-align: center;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 2px;   
+}
+
+li:hover{
+    background-color: #b3a405;
+    cursor: pointer;
+    color: #000000;
+    font-weight: bold;    
+}
+
+/* Seções de conteudo*/
+
+main{
+    width: 100vw;
+    min-height: 1000px;
+}
+
+#sinopse{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+#sinopse img{
+    width: 100%;
+    height: auto;
+}
+#personagens{
+    width: 100%;
+    min-height: 700px;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+#personagens h3{
+    color: #b3a405;
+    text-align: left;
+    padding: 10px;
+
+}
+
+#personagem-dean{
+    text-wrap: initial;
+    justify-content: center;
+}
+
+#container-personagens{
+    width: 100%;
+    min-height: auto;    
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 400px 1fr ;
+    gap: 30px;
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+    padding-left: 10%;
+}
+
+#container-personagens div img {
+    width: 60%;
+    min-height: 300px;
+    display: block;
+    margin: auto;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+#container-personagens div {
+    height: 400px;
+
+}
+
+#familia h2{       
+    color: #b3a405;
+    font-size: 5rem;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    font-family: Arial, sans-serif;
+   
+}
+
+#familia{
+    width: 100%;
+    height: 1000px;         
+    background-image: url(../src/imagem/poster-03-familia.jpeg);
+    background-size: cover;
+    background-position: center;
+    position: relative; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#temporadas{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+#imagem-temporadas{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    padding: 20px;
+    justify-items: center;
+}
+
+.temporada img {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 10px;
+}
+
+.temporada h3 {
+    text-align: center;
+    margin-top: 10px;
+    font-family: arial;
+    font-size: 1.4rem;
+    color: #b3a405;
+}
+
+.poster04{
+    background-color: #000000;
+}
+
+#curiosidades{
+    width: 100%;
+    height: 400px;
+    margin: 0;
+    padding: 0;    
+    background-color: #000000;
+    color: #ffffff;
+}
+
+footer img{
+    width: 100vw;
+    height: 20vh;
+    margin-top: 0; 
+    background-color: #000000;   
+}
+
